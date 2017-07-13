@@ -7,8 +7,8 @@
     <ProjectGuid>{AB283D4C-ED47-4E38-9E48-2DB3139A4022}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BinaryTreeExample</RootNamespace>
-    <AssemblyName>BinaryTreeExample</AssemblyName>
+    <RootNamespace>BinaryTree</RootNamespace>
+    <AssemblyName>BinaryTree</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
