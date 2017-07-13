@@ -11,7 +11,7 @@ namespace BinaryTree.Example
     {
         static void Main(string[] args)
         {
-            BinaryTree<char> binaryTree = new BinaryTree<char>();
+            var binaryTree = new BinaryTree<char>();
             binaryTree.AddElement('f');
             binaryTree.AddElement('b');
             binaryTree.AddElement('a');
@@ -23,7 +23,10 @@ namespace BinaryTree.Example
             binaryTree.AddElement('k');
             binaryTree.AddElement('j');
             binaryTree.AddElement('g');
+            binaryTree.Traversal = Traversals.PostOrderTraversal;
             Console.WriteLine(string.Join(",", binaryTree));
+            Console.WriteLine(binaryTree.Count);
+            Console.Read();
         }
     }
 }
